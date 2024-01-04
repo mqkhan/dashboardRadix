@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.container {
-  border: 2px solid;
-  box-shadow: #535bf2;
-}
-
 a {
   font-weight: 500;
   color: #646cff;

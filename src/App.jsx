@@ -4,9 +4,9 @@ export default function App() {
   return (
     <div>
       <Container className="container">
-        <h1>Dashboard</h1>
-        <Flex className="card">
-          <Card style={{ maxWidth: 240 }}>
+        <h1 className="text-l">Dashboard</h1>
+        <Flex>
+          <Card className="w-80 h-32">
             <Flex gap="3" align="center">
               <Box>
                 <Text as="div" size="2" weight="bold">
@@ -18,7 +18,7 @@ export default function App() {
               </Box>
             </Flex>
           </Card>
-          <Card style={{ maxWidth: 240 }}>
+          <Card className="w-80 h-32">
             <Flex gap="3" align="center">
               <Box>
                 <Text as="div" size="2" weight="bold">
@@ -30,7 +30,7 @@ export default function App() {
               </Box>
             </Flex>
           </Card>
-          <Card style={{ maxWidth: 240 }}>
+          <Card className="w-80 h-32">
             <Flex gap="3" align="center">
               <Box>
                 <Text as="div" size="2" weight="bold">
@@ -42,7 +42,7 @@ export default function App() {
               </Box>
             </Flex>
           </Card>
-          <Card style={{ maxWidth: 240 }}>
+          <Card className="w-80 h-32">
             <Flex gap="3" align="center">
               <Box>
                 <Text as="div" size="2" weight="bold">
