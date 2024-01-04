@@ -2,7 +2,7 @@ import { Overview } from "./Overview.jsx";
 import { Flex, Text, Card, Box, Container, Table } from "@radix-ui/themes";
 export default function App() {
   return (
-    <div className=" container flex flex-col w-[1334px] h-[600px] border-solid border-2 border-grey-600 ml-[90px] gap-2 ">
+    <div className=" container flex flex-col w-[1334px] h-[600px] border-solid border-2 rounded-xl border-grey-600 ml-[90px] gap-2 ">
       <h1 className="text-3xl font-bold tracking-tight mb-2 mx-2.5 my-2.5">
         Dashboard
       </h1>
@@ -110,11 +110,11 @@ export default function App() {
         </Card>
       </div>
       <div className="flex gap-2 mx-2.5 my-2.5 ">
-        <div className="w-3/4 h-[380px] border-solid border-2 border-grey-600">
+        <div className="w-3/4 h-[380px] border-solid border-2 rounded-xl border-grey-600">
           <Overview />
         </div>
 
-        <div className="w-2/4 border-solid border-2 border-grey-600">
+        <div className="w-2/4 border-solid border-2 rounded-xl border-grey-600">
           <Table.Root>
             <Table.Header>
               <Table.Row>
