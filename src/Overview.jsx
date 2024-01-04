@@ -54,6 +54,7 @@ const data = [
 export function Overview() {
   return (
     <ResponsiveContainer width="100%" height={350}>
+      <h3 className="text-l font-bold mb-4">Overview</h3>
       <BarChart data={data}>
         <XAxis
           dataKey="name"
